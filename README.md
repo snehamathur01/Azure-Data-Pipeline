@@ -1,5 +1,6 @@
 # Azure-Data-Pipeline
 Project Flow:
+
 Raw Data source ----> Data ingestion in Data Factory ----> Raw Data Store (Azure Data Lake gen2) ---> Tranformed the data (Azure databricks) ----> Dashboard (Tableau)
 
 1.	Created a Storage account with a new Resource group, check the hierarchical namespace box, so that the files in the storage account will be available in a hierarchical format just like how it is in the disk storage(folder structure)
@@ -19,14 +20,16 @@ The container has 2 directories raw data and transformed data
     ![image](https://github.com/snehamathur01/Azure-Data-Pipeline/assets/51332122/3bb7e3f0-8191-40e3-877d-ec7048c0fc71)
 
     
-Repeat the same for Coaches.csv, EntriesGender.csv, Medals.csv, Teams.csv
+Repeated the same for Coaches.csv, EntriesGender.csv, Medals.csv, Teams.csv
 ![image](https://github.com/snehamathur01/Azure-Data-Pipeline/assets/51332122/d5ae715c-008a-43aa-ab83-cbe64bab2e76)
 ![image](https://github.com/snehamathur01/Azure-Data-Pipeline/assets/51332122/a915b28e-8229-4424-9ae8-3dfe31aabb27)
 
 Now we have all the 5 files in the Raw Folder of our container,
 ![image](https://github.com/snehamathur01/Azure-Data-Pipeline/assets/51332122/9e018a42-8a5d-4bab-b070-6ef4c83a0192)
 
-
+4. Then I created a databricks workspace and wrote transformation logic for the all 5 files. (The databricks notebook has been uploaded)
+   
+5. From the cleaned file I created a dashboard to extract valuable insights from the Olympics data
 
 
 
