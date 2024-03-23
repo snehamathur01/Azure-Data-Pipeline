@@ -30,6 +30,10 @@ Now we have all the 5 files in the Raw Folder of our container,
 4. Then I created a databricks workspace and wrote transformation logic for the all 5 files. (The databricks notebook has been uploaded)
    
 5. From the cleaned file I created a dashboard to extract valuable insights from the Olympics data
+   <img width="803" alt="image" src="https://github.com/snehamathur01/Azure-Data-Pipeline/assets/51332122/ffcd1292-2a3c-4234-a10e-43bb89843c41">
+
+   Tableau link to the dashboard: https://public.tableau.com/app/profile/sneha.mathur6969/viz/OlympicData_17111523849480/OlympicsDatasetAnalysis
+
 
 
 
